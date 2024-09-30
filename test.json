@@ -1,0 +1,125 @@
+{
+	"format": "pest",
+	"results": [
+		{
+			"path": "\/Users\/lasserafn\/Downloads\/php-example-pestphp-mutation-coverage\/src\/User.php",
+			"count_total": 9,
+			"count_not_run": 0,
+			"count_timed_out": 0,
+			"count_uncovered": 0,
+			"count_untested": 2,
+			"tests": [
+				{
+					"id": "6d3549fc8e6a1f96",
+					"duration": 0.1275,
+					"result": "tested",
+					"mutation": {
+						"id": "6d3549fc8e6a1f96",
+						"mutator": "Pest\\Mutate\\Mutators\\ControlStructures\\IfNegated",
+						"start_line": 20,
+						"end_line": 25
+					}
+				},
+				{
+					"id": "70dfd45e38c4631e",
+					"duration": 0.1078,
+					"result": "tested",
+					"mutation": {
+						"id": "70dfd45e38c4631e",
+						"mutator": "Pest\\Mutate\\Mutators\\Equality\\IdenticalToNotIdentical",
+						"start_line": 20,
+						"end_line": 20
+					}
+				},
+				{
+					"id": "75e38a7740a0415a",
+					"duration": 0.1102,
+					"result": "tested",
+					"mutation": {
+						"id": "75e38a7740a0415a",
+						"mutator": "Pest\\Mutate\\Mutators\\Number\\DecrementInteger",
+						"start_line": 20,
+						"end_line": 20
+					}
+				},
+				{
+					"id": "8e91b931bd0908bb",
+					"duration": 0.1083,
+					"result": "tested",
+					"mutation": {
+						"id": "8e91b931bd0908bb",
+						"mutator": "Pest\\Mutate\\Mutators\\Number\\IncrementInteger",
+						"start_line": 20,
+						"end_line": 20
+					}
+				},
+				{
+					"id": "aa7a76fbc9a8d0a9",
+					"duration": 0.0996,
+					"result": "untested",
+					"mutation": {
+						"id": "aa7a76fbc9a8d0a9",
+						"mutator": "Pest\\Mutate\\Mutators\\Number\\DecrementInteger",
+						"start_line": 21,
+						"end_line": 21
+					}
+				},
+				{
+					"id": "12f7cc5502bddaf3",
+					"duration": 0.0989,
+					"result": "untested",
+					"mutation": {
+						"id": "12f7cc5502bddaf3",
+						"mutator": "Pest\\Mutate\\Mutators\\Number\\IncrementInteger",
+						"start_line": 21,
+						"end_line": 21
+					}
+				},
+				{
+					"id": "07ad61bc7838a59c",
+					"duration": 0.1082,
+					"result": "tested",
+					"mutation": {
+						"id": "07ad61bc7838a59c",
+						"mutator": "Pest\\Mutate\\Mutators\\Logical\\TrueToFalse",
+						"start_line": 24,
+						"end_line": 24
+					}
+				},
+				{
+					"id": "c8d4ddcec1589bbe",
+					"duration": 0.1082,
+					"result": "tested",
+					"mutation": {
+						"id": "c8d4ddcec1589bbe",
+						"mutator": "Pest\\Mutate\\Mutators\\Removal\\RemoveEarlyReturn",
+						"start_line": 24,
+						"end_line": 24
+					}
+				},
+				{
+					"id": "ba3ed65695679b63",
+					"duration": 0.1063,
+					"result": "tested",
+					"mutation": {
+						"id": "ba3ed65695679b63",
+						"mutator": "Pest\\Mutate\\Mutators\\Logical\\FalseToTrue",
+						"start_line": 27,
+						"end_line": 27
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"duration": 0.9779,
+		"score": 77.77777777777779,
+		"tests": {
+			"count_total": 1,
+			"count_not_run": 0,
+			"count_timed_out": 0,
+			"count_uncovered": 0,
+			"count_untested": 2
+		}
+	}
+}
