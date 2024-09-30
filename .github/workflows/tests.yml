@@ -20,10 +20,8 @@ jobs:
           coverage: pcov
       - name: Install Dependencies
         run: composer install --no-interaction --prefer-dist --optimize-autoloader --ignore-platform-reqs
-      - name: Run tests
-        run: ./vendor/bin/pest --coverage-clover=build/logs/clover.xml
-      - name: Generate Type Coverage
-        run: ./vendor/bin/pest --type-coverage --type-coverage-json=pest-type-coverage.json
+      - name: Run tests with Mutation coverage
+        run: ./vendor/bin/pest --coverage-clover=build/logs/clover.xml --mutate --mutate-output-json=pest-mutation-coverage.json
       - name: Upload Coverage
         env:
           OTTERWISE_TOKEN: ${{ secrets.OTTERWISE_TOKEN }}
